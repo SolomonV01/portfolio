@@ -1,0 +1,270 @@
+body {
+    box-sizing: border-box; 
+    display: flex;
+    margin: 0 auto;
+    min-height: 100vh;
+    flex-direction: column;
+    
+    font-family: "pf-marlet-display", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+    background: linear-gradient(180deg, rgba(161,158,181,1) 0%, rgba(224,229,245,1) 100%);
+}
+
+p {
+    color: #605b77;
+    
+    padding: 1rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 18px;
+}
+
+.wrapper {
+    flex-grow: 1;
+}
+
+.my-image {
+    width: 50%;
+    max-width: 500px;
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
+}
+
+.self {
+    flex-basis: 40%;
+    flex-grow: 1;
+
+    max-width: 400px;
+}
+
+img {
+    width: 100%;
+    min-width: 300px;
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
+}
+
+video {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+}
+
+.links {
+    background-color: #8e8ca4;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+a{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    
+    color: #302d40;
+}
+
+h1, h2, h3, h4{
+    text-align: center;
+    color: #302d40;
+
+    letter-spacing: 4px;
+}
+
+.flexbox {
+    display: flex;
+    padding: 1em;
+  
+    flex-wrap: wrap;
+    border-radius: 1em;
+    align-items: center;
+    gap: 1rem 5rem; 
+
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.text {
+    flex-basis: 35%;
+    flex-grow: 1;
+    min-width: 14rem;
+    max-width: 50ch;
+    line-height: 1.75;
+}
+
+.contact {
+    width: 50%;
+    max-width: 500px;
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
+}
+
+.gmail {
+    text-align: center;
+}
+
+.gallery, .gallery2, .gallery3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    
+}
+  
+.gallery img, .gallery2 img, .gallery3 img{
+    width: 100%;
+    flex-basis: 30%;
+    flex-grow: 2;
+    min-width: 200px;
+}
+
+.buff{
+    max-width: 1000px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-to-top {
+    background-color: #bbb8d7;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: #736f8e;
+    padding: 1rem;
+
+    margin-top: auto;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+.test{
+    width: 100%;
+    background-image: url("images/cardi.png");
+}
+
+.dropdown-content a:hover {
+    color:aliceblue;
+    flex-direction: column;
+}
+
+.folio:hover .dropdown-content {
+    display: block;
+    flex-direction: column;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #605b77;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    flex-direction: column;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.amazon img{
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
+}
+
+.nav img{
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
+}
+
+.nascar img{
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
+}
+
+.cover img{
+    max-width: 600px;
+}
+
+.minilinks img{
+    width: 100%;
+    max-width: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+
+.webapp img{
+    width: 100%;
+}
